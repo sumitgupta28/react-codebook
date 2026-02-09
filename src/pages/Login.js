@@ -5,7 +5,7 @@ import { userLogin } from "../services";
 import { useTitle } from "../hook/useTitle";
 
 export const Login = () => {
-  useTitle('Login')
+  useTitle('CodeBook Login')
   const navigate = useNavigate();
   const email = useRef();
   const password = useRef();
