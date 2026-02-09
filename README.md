@@ -172,3 +172,9 @@ https://flowbite.com/#components
 
 ### react-toastify
 https://fkhadra.github.io/react-toastify/introduction/
+
+## Front End Deployment on 
+netlify
+
+## Back End Deployment on 
+render
