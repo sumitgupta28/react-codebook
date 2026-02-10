@@ -29,10 +29,10 @@ export const ProductCard = ({ product }) => {
     return (
         <div className="m-3 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <Link to={`/products/${id}`} className="relative" >
-                <div className="flex w-48 space-y-1.5">
-                    {best_seller && <span className="absolute top-4 left-30 px-2 bg-orange-500 bg-opacity-90 text-white rounded">Best Seller</span>}
-                    {in_stock && <span className="absolute top-4 right-2 px-2 bg-green-500 bg-opacity-90 text-white rounded">In Stock</span>}
-                    {!in_stock && <span className="absolute top-4 right-2 px-2 bg-red-500 bg-opacity-90 text-white rounded">Not In Stock</span>}
+                <div className="flex w-20 space-y-1">
+                    {best_seller && <span className="absolute top-4 right-10 px-2 bg-orange-500 bg-opacity-90 text-white rounded">Best Seller</span>}
+                    {in_stock && <span className="absolute top-10 right-10 px-2 bg-green-500 bg-opacity-90 text-white rounded">In Stock</span>}
+                    {!in_stock && <span className="absolute top-10 right-10 px-2 bg-red-500 bg-opacity-90 text-white rounded">Not In Stock</span>}
                 </div>
                 <img className="rounded-t-lg w-full h-64" src={poster} alt={name} />
             </Link>
